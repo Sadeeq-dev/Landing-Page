@@ -1,0 +1,872 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*font-size: 18px;*/
+    font-family: Bai Jamjuree;
+    /*font-weight: 400;*/
+    
+    
+}
+
+#header {
+    background-image: url('images/bg-header-desktop.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    padding-top: 20px;     
+}
+
+.history {
+    text-align: center;
+}
+
+.history h1 {
+    font-size: 1.8rem;
+    color:  hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+}
+
+.history p {
+    color: hsl(201, 11%, 66%);
+}
+
+.button {
+    margin-top: 25px;
+}
+
+.button .btn-1 {
+    padding: 8px 17px;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.button .btn-2 {
+    padding: 8px 17px;
+    border-radius: 15px;
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-1:active {
+    background-color: hsl(170, 6%, 82%);
+    color: rgb(192, 189, 189);
+}
+
+.btn-2:active {
+    background-color: hsl(232, 80%, 90%);
+    color: #dad8d8;
+}
+
+.keep-track {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.keep-track h1 {
+    font-size: 1.8rem;
+    color:  hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+}
+
+.keep-track p {
+    color: hsl(201, 11%, 66%);
+}
+
+.computer {
+    margin-top: 40px;
+    display: flex;
+    width: 80%;
+}
+
+.quick-search h2 {
+     font-size: 1rem;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+}
+
+.quick-search p {
+
+    color: hsl(201, 11%, 66%);
+}
+
+.access {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.access h2 {
+    font-size: 1.8rem;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+}
+
+.access p {
+    color: hsl(201, 11%, 66%);
+}
+
+.device {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.supercharge {
+    margin-top: 45px;
+    text-align: center;
+}
+
+.supercharge h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+}
+
+.supercharge p {
+    color: hsl(201, 11%, 66%);
+}
+
+.create {
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+
+.create h2 {
+    font-size: 1.3rem;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+}
+
+.create p {
+    color: hsl(201, 11%, 66%);
+}
+
+.create .blacklist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.create .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.google {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-top: 90px;
+}
+
+.google img {
+    width: 50%;
+}
+
+.clipboard {
+    margin-top: 70px;
+    text-align: center;
+}
+
+.clipboard h2 {
+    font-size: 1.8rem;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+}
+
+.clipboard p {
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 20px;
+}
+
+
+footer {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 25px 130px;
+    background: hsl(210, 8%, 95%);
+}
+
+
+.footer p, a {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+}
+
+.logos {
+    display: flex;
+    gap: 20px;
+}
+
+
+/*Media query for screen 375px*/
+@media (max-width: 375px) {
+
+    body {
+        margin: 20px 50px;
+        font-size: 18px;
+    }
+    #header {
+    background-image: url('images/bg-header-mobile.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding-top: 20px;   
+    width: 100%;
+    }
+    
+    .history {
+    text-align: center;
+    }
+
+    .history h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:  hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+    }
+
+    .history p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    }
+
+     .button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .button .btn-1 {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 30px;
+    }
+
+    .button .btn-2 {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    }
+
+    .keep-track {
+    text-align: center;
+    margin-top: 150px;
+    }
+
+    .keep-track h1 {
+    font-size: 2rem;
+    color:  hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+    }
+
+    .keep-track p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    }
+    .computer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+    .computer .my-computer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .computer .my-computer img {
+        width: 100% !important;
+    }
+
+    .computer .quick-search {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 65px;
+    }
+
+    .computer .quick-search h2 {
+        font-size: 1.7rem;
+        color:  hsl(210, 10%, 33%);
+        padding: 16px 0;
+        font-weight: 600;
+    }
+
+    .computer .quick-search p {
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-direction: column;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .access {
+    text-align: center;
+    margin-top: 180px;
+    }
+
+    .access h2 {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .access p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    font-size: 18px;
+    }
+
+    .device {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .device img {
+        width: 100% !important;
+    }
+
+    .supercharge h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .supercharge p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    padding-bottom: 90px;
+    }
+
+    .create {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    }
+
+    .create h2 {
+    display: flex;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .create p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    }
+
+    .create .blacklist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    }
+
+    .create .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    }
+
+    .create .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    }
+
+    .google {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;  
+        
+    }
+
+    .google img{
+        width: 140px;
+        margin-bottom: 60px;
+    }
+
+    .clipboard {
+        margin-top: 200px;
+    }
+
+    .clipboard h2 {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .clipboard p {
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 20px;
+    line-height: 1.5;
+    }
+
+    footer {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 25px 130px;
+    background: hsl(210, 8%, 95%);
+    gap: 20px;
+    }
+    .footer .footer-img {
+        width: 320px !important;
+    }
+
+
+    .footer p, a {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+    }
+
+    .logos {
+    display: flex;
+    gap: 30px;
+    }
+
+}
+/*responsiveness for mobile 375px ends here*/
+
+
+/*responsiveness 376px - 600px starts here*/
+@media (min-width: 376px) and (max-width:600px) {
+       body {
+        margin: 30px 70px;
+        font-size: 20px;
+    }
+    #header {
+    background-image: url('images/bg-header-mobile.png');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding-top: 20px;   
+    width: 100%;
+    }
+    
+    .history {
+    text-align: center;
+    }
+
+    .history h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:  hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+    }
+
+    .history p {
+    color: hsl(201, 11%, 66%);
+    font-size: 1.5rem;
+    line-height: 1.5;
+    }
+
+     .button {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .button .btn-1 {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 30px;
+    }
+
+    .button .btn-2 {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    }
+
+    .keep-track {
+    text-align: center;
+    margin-top: 150px;
+    }
+
+    .keep-track h1 {
+    font-size: 2rem;
+    color:  hsl(210, 10%, 33%);
+    padding-bottom: 10px;
+    }
+
+    .keep-track p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    }
+    .computer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+    .computer .my-computer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .computer .my-computer img {
+        width: 100% !important;
+    }
+
+    .computer .quick-search {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 65px;
+    }
+
+    .computer .quick-search h2 {
+        font-size: 1.7rem;
+        color:  hsl(210, 10%, 33%);
+        padding: 16px 0;
+        font-weight: 600;
+    }
+
+    .computer .quick-search p {
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-direction: column;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+    .access {
+    text-align: center;
+    margin-top: 180px;
+    }
+
+    .access h2 {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .access p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    font-size: 18px;
+    }
+
+    .device {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .device img {
+        width: 100% !important;
+    }
+
+    .supercharge h2 {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .supercharge p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    padding-bottom: 90px;
+    }
+
+    .create {
+    display: grid;
+    text-align: center;
+    margin: auto;
+    }
+
+    .create h2 {
+    display: flex;
+    margin-top: 25px;
+    font-size: 1.5rem;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .create p {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.5;
+    }
+
+    .create .blacklist {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    }
+
+    .create .text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 25px;
+    }
+
+    .create .preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+    }
+
+    .google {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 50vh;  
+        
+    }
+
+    .google img{
+        width: 140px;
+        margin-bottom: 60px;
+    }
+
+    .clipboard {
+        margin-top: 200px;
+    }
+
+    .clipboard h2 {
+    font-size: 1.9rem;
+    line-height: 1.5;
+    color:  hsl(210, 10%, 33%);
+    padding: 15px 0;
+    }
+
+    .clipboard p {
+    color: hsl(201, 11%, 66%);
+    padding-bottom: 20px;
+    line-height: 1.5;
+    }
+
+    footer {
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 25px 130px;
+    background: hsl(210, 8%, 95%);
+    gap: 20px;
+    }
+    .footer .footer-img {
+        width: 320px !important;
+    }
+
+
+    .footer p, a {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+    }
+
+    .logos {
+    display: flex;
+    gap: 30px;
+    }
+
+}
+
+/*responsiveness 600px ends here*/
+
+/*responsiveness for 601px-1025px starts here*/
+@media (min-width:601px) and (max-width: 1025px) {
+    body p{
+    font-size: 28px;
+    }
+    body h1 {
+    font-size: 3.5rem;
+    }
+
+    .computer {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    }
+
+    .computer .my-computer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .computer .my-computer img {
+        width: 100% !important;
+    }
+
+    .computer .quick-search {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      margin-top: 65px;
+    }
+
+    .computer .quick-search h2 {
+        font-size: 1.7rem;
+        color:  hsl(210, 10%, 33%);
+        padding: 16px 0;
+        font-weight: 600;
+    }
+
+    .computer .quick-search p {
+        display: flex;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+        flex-direction: column;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+
+        .button {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .button .btn-1 {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 25px;
+    margin-right: 10px;
+    background-color: hsl(171, 66%, 44%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 30px;
+    }
+
+    .button .btn-2 {
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: hsl(233, 100%, 69%);
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    }
+
+    .create {
+        gap: 25px;
+    }
+
+    footer {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(210, 8%, 95%);
+    gap: 20px;
+    }
+    .footer .footer-img {
+        width: 320px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .footer p, a {
+    color: hsl(201, 11%, 66%);
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .logos {
+    display: flex;
+    gap: 30px;
+    }
+
+}
+/*responsiveness ends here*/
+
+
