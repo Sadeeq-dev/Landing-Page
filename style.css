@@ -871,6 +871,10 @@ footer {
         gap: 25px;
     }
 
+    .device img {
+        width: 100% !important;
+    }
+
     footer {
     margin-top: 200px;
     display: flex;
