@@ -791,7 +791,7 @@ footer {
 /*responsiveness for 601px-1025px starts here*/
 @media (min-width:601px) and (max-width: 1445px) {
     body p{
-    font-size: 34px;
+    font-size: 25px;
     margin: 20px 20px;
     }
     body h1 {
@@ -814,7 +814,7 @@ footer {
     }
 
     .computer .my-computer img {
-        width: 100% !important;
+        width: 60% !important;
     }
 
     .computer .quick-search {
@@ -872,7 +872,7 @@ footer {
     }
 
     .device img {
-        width: 100% !important;
+        width: 60% !important;
     }
 
     footer {
