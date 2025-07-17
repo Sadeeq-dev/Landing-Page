@@ -230,9 +230,23 @@ footer {
 
 
         body {
+        margin: 20px 30px;
+        padding: 0;
         box-sizing: border-box;
-        overflow-x: hidden;
         font-size: 18px;
+    }
+
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .history .keep-track .computer .create .clipboard .access .device .supercharge .google .footer {
+        width: 100%;
+
+    }
+
+    header {
+        width: 100%;
     }
     #header {
     background-image: url('images/bg-header-mobile.png');
@@ -439,19 +453,15 @@ footer {
         align-items: center;
         justify-content: center;
         height: 50vh;  
+        width: 100%;
         margin-left: 0;
         margin-right: 0;
-        padding-left: 15px;
-        padding-right: 15px;
+        padding: 0 15px;
     }
 
     .google img{
         width: 140px;
         margin-bottom: 60px;
-        margin-left: 0;
-        margin-right: 0;
-        padding-left: 15px;
-        padding-right: 15px;
     }
 
     .clipboard {
