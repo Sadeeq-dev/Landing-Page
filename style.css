@@ -230,7 +230,7 @@ footer {
 
 
         body {
-        margin: 20px 30px;
+        margin: 20px 15px;
         padding: 0;
         box-sizing: border-box;
         font-size: 18px;
@@ -510,9 +510,24 @@ footer {
 
 /*responsiveness 376px - 600px starts here*/
 @media (min-width: 376px) and (max-width:600px) {
-       body {
-        margin: 30px 70px;
+           body {
+        margin: 20px 15px;
+        padding: 0;
+        box-sizing: border-box;
         font-size: 20px;
+    }
+
+    body, html {
+        overflow-x: hidden;
+    }
+
+    .history .keep-track .computer .create .clipboard .access .device .supercharge .google .footer {
+        width: 100%;
+
+    }
+
+    header {
+        width: 100%;
     }
     #header {
     background-image: url('images/bg-header-mobile.png');
@@ -719,7 +734,10 @@ footer {
         align-items: center;
         justify-content: center;
         height: 50vh;  
-        
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 15px;
     }
 
     .google img{
@@ -766,7 +784,6 @@ footer {
     display: flex;
     gap: 30px;
     }
-
 }
 
 /*responsiveness 600px ends here*/
