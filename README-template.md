@@ -7,6 +7,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
+  -[Links]
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -25,13 +26,13 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshots/Screenshot%202025-07-15%20at%2016-46-35%20Landing%20Page.png)
-![](./screenshots/Screenshot_15-7-2025_17143_127.0.0.1.jpeg)
+![](./screenshots/Screenshot_16-7-2025_184441_landing-page-bay-eight-28.vercel.app.jpeg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/Sadeeq-dev/Landing-Page)
+- Live Site URL: (https://landing-page-bay-eight-28.vercel.app/)
 
 ## My process
 
