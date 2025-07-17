@@ -228,8 +228,10 @@ footer {
 /*Media query for screen 375px*/
 @media (max-width: 375px) {
 
-    body {
-        margin: auto;
+
+        body {
+        box-sizing: border-box;
+        overflow-x: hidden;
         font-size: 18px;
     }
     #header {
@@ -437,12 +439,19 @@ footer {
         align-items: center;
         justify-content: center;
         height: 50vh;  
-        
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .google img{
         width: 140px;
         margin-bottom: 60px;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .clipboard {
