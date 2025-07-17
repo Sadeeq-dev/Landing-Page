@@ -789,9 +789,10 @@ footer {
 /*responsiveness 600px ends here*/
 
 /*responsiveness for 601px-1025px starts here*/
-@media (min-width:601px) and (max-width: 1025px) {
+@media (min-width:601px) and (max-width: 1445px) {
     body p{
-    font-size: 28px;
+    font-size: 34px;
+    margin: 20px 20px;
     }
     body h1 {
     font-size: 3.5rem;
